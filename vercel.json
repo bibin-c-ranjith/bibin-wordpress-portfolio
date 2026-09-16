@@ -3,29 +3,5 @@
   "framework": null,
   "buildCommand": null,
   "outputDirectory": "dist",
-  "cleanUrls": true,
-  "redirects": [
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "bibin-wordpress-portfolio.vercel.app"
-        }
-      ],
-      "destination": "https://www.bibincranjith.in/",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "bibin-wordpress-portfolio.vercel.app"
-        }
-      ],
-      "destination": "https://www.bibincranjith.in/:path*",
-      "permanent": true
-    }
-  ]
+  "cleanUrls": true
 }
