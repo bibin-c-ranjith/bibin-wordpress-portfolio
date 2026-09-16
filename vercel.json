@@ -6,6 +6,17 @@
   "cleanUrls": true,
   "redirects": [
     {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "bibin-wordpress-portfolio.vercel.app"
+        }
+      ],
+      "destination": "https://www.bibincranjith.in/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
